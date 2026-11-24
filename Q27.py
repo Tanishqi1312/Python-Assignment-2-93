@@ -1,0 +1,12 @@
+"""Assignment 2 - Question 27
+Assign grades using if-elif-else.
+Run this file directly in VS Code.
+"""
+
+marks = float(input("Enter marks (0-100): "))
+if marks >= 90: grade = "A"
+elif marks >= 80: grade = "B"
+elif marks >= 70: grade = "C"
+elif marks >= 60: grade = "D"
+else: grade = "F"
+print("Grade:", grade)
